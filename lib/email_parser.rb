@@ -25,7 +25,7 @@ end
 # b.uniq { |s| s.first } # => [["student", "sam"], ["teacher", "matz"]]
 
 
-# Aslo gsub
+# Aslo gsub can be used
 # str = " the quick brown fox jumped over the quick dog"
 #
 # p str.gsub 'quick', 'slow'
