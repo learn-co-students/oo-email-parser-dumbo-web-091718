@@ -11,7 +11,7 @@ def initialize(email)
 end
 
 def parse
-  email_arr = self.email.split('')
+  email_arr = @email.split('')
   email_arr.delete(',')
   email_arr.join.split(' ').uniq
 end
